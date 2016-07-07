@@ -4,7 +4,21 @@
 }
 
 h1 {
-	font-size: 300px;
+	font-size: 90px;
 	text-align: center;
-	color: fuchsia;
+	color: red;
 }
+
+.bottonera{
+    text-align: center;
+}
+
+button{
+    font-size: 50px;
+    margin: 2px;
+    &.on{
+        background: red;
+    }
+
+}
+
